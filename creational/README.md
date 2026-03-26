@@ -8,11 +8,11 @@ Most important pattern category, I think. If you dont want to get humiliated at 
 
 | Pattern | Summary | When to use? |
 | :--- | :--- | :--- |
-| **[Singleton](./Singleton.java)** | Restricts a class to a single instance. | When you need a global state (e.g., Database connection, Logging). |
-| **[Factory Method](./Factory.java)** | Provides an interface for creating objects in a superclass. | When you don't know the exact types and dependencies of the objects beforehand. |
-| **[Abstract Factory](./AbstractFactory.java)** | Produces families of related objects. | When your code needs to work with various families of related products. |
-| **[Builder](./Builder.java)** | Construct complex objects step-by-step. | When you have a "telescoping constructor" problem (too many parameters). |
-| **[Prototype](./Prototype.java)** | Copy existing objects without depending on classes. | When the cost of creating a new object is higher than cloning an existing one. |
+| **[Singleton](./Singleton.go)** | Restricts a class to a single instance. | When you need a global state (e.g., Database connection, Logging). |
+| **[Factory Method](./Factory.go)** | Provides an interface for creating objects in a superclass. | When you don't know the exact types and dependencies of the objects beforehand. |
+| **[Abstract Factory](./AbstractFactory.go)** | Produces families of related objects. | When your code needs to work with various families of related products. |
+| **[Builder](./Builder.go)** | Construct complex objects step-by-step. | When you have a "telescoping constructor" problem (too many parameters). |
+| **[Prototype](./Prototype.go)** | Copy existing objects without depending on classes. | When the cost of creating a new object is higher than cloning an existing one. |
 
 ---
 
